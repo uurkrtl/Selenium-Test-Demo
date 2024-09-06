@@ -1,4 +1,4 @@
-package part1;
+package part1.com.orangehrmlive;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +25,7 @@ public class FirstSeleniumTest {
 
     @AfterClass
     public void tearDown() {
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
